@@ -77,7 +77,7 @@ header {
 }
 
 header svg {
-  width: 3em;
+  width: 2.3em;
   margin-top: -.6em;
   cursor: pointer;
 }
@@ -126,6 +126,11 @@ section.hero .down-arrow path {
 
 .more-info .desc {
   line-height: 1.5rem;
+}
+
+.open-nav {
+  -webkit-transform: translate(0%);
+          transform: translate(0%);
 }
 
 @media only screen and (min-width: 680px) {
